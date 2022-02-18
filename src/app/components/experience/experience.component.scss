@@ -1,0 +1,22 @@
+:host {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(24, 26, 27);
+
+    h2 {
+        color: #ebe0e0;
+    }
+
+    .custom-marker img {
+        width: 3rem;
+    }
+
+    ul {
+        text-align: left;
+        color: #ebe0e0;
+        li {
+            margin: 5px 0;
+        }
+    }
+}

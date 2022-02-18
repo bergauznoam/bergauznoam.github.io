@@ -1,0 +1,12 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(35, 38, 39);
+
+    h2 {
+        color: #ebe0e0;
+    }
+}

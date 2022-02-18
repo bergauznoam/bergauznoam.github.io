@@ -1,0 +1,17 @@
+<div class="card">
+    <h2>Work Experience</h2>
+    <p-timeline [value]="workplaces" align="alternate" styleClass="customized-timeline">
+        <ng-template pTemplate="marker" let-event>
+            <span class="custom-marker">
+                <img [src]="event.icon" [style]="event.style">
+            </span>
+        </ng-template>
+        <ng-template pTemplate="content" let-event>
+            <p-card [header]="event.workplace" [subheader]="event.date">
+                <ul>
+                    <li *ngFor="let bullet of event.content">{{bullet}}</li>
+                </ul>                
+            </p-card>
+        </ng-template>
+    </p-timeline>
+</div>

@@ -1,0 +1,14 @@
+<h1>Noam Bergauz</h1>
+<h3>Full Stack Software Developer;</h3>
+<div class="contact">
+  <ng-container *ngFor="let contact of contactInfomation">
+    <a [href]="contact.url" target="blank">
+      <fa-icon 
+        [icon]="contact.icon" 
+        [style.color]="contact.color"
+        size="2x">
+      </fa-icon>
+    </a>
+  </ng-container>
+</div>
+<button (click)="onGetToKnowMeClick()">Get to know me</button>

@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import "~primeng/resources/primeng.min.css";
+@import "./assets/animations/index.scss";
+@import "./assets/tab-view.scss";
+
+html, body {
+    padding: unset;
+    margin: unset;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.p-timeline .p-timeline-event-connector {
+    background-color: #dee2e6;
+    width: 2px;
+}
+
+.p-card-title, .p-card-subtitle {
+    color: #ebe0e0;
+}  
