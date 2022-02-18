@@ -18,13 +18,13 @@
         text-align: center;
     }
 
-    h3 {
+    h4 {
         overflow: hidden; 
         border-right: .15em solid orange; 
         white-space: nowrap; 
         margin: 0 auto; 
         letter-spacing: .15em;
-        max-width: 350px;
+        max-width: 300px;
         animation: 
             typing 5.5s steps(40, end),
             blink-caret .75s step-end infinite;
